@@ -178,7 +178,7 @@ elif page == "📊 Итоги исследования":
     with col2:
         st.metric(label="Лучший CV RMSLE (Ridge)", value="0.1146", delta="-0.0227", delta_color="inverse")
     with col3:
-        st.metric(label="Итоговый соревновательный ансамбль", value="Топ-15%")
+        st.metric(label="Итоговый соревновательный ансамбль", value="Топ~10%")
         
     st.subheader("📋 Таблица результатов кросс-валидации")
     metrics_data = {
